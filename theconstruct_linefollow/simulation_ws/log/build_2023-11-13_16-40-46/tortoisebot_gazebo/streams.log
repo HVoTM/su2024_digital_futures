@@ -1,0 +1,100 @@
+[1.400s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/tortoisebot/tortoisebot_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/tortoisebot_gazebo
+[1.773s] -- The C compiler identification is GNU 11.3.0
+[2.196s] -- The CXX compiler identification is GNU 11.3.0
+[2.230s] -- Detecting C compiler ABI info
+[2.852s] -- Detecting C compiler ABI info - done
+[2.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.898s] -- Detecting C compile features
+[2.900s] -- Detecting C compile features - done
+[2.957s] -- Detecting CXX compiler ABI info
+[3.762s] -- Detecting CXX compiler ABI info - done
+[3.809s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.809s] -- Detecting CXX compile features
+[3.823s] -- Detecting CXX compile features - done
+[3.969s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.169s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[7.711s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.584s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.670s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.670s] -- Added test 'lint_cmake' to check CMake code style
+[8.670s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.671s] -- Added test 'xmllint' to check XML markup files
+[8.688s] -- Configuring done
+[8.726s] -- Generating done
+[8.726s] -- Build files have been written to: /home/user/simulation_ws/build/tortoisebot_gazebo
+[8.860s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/tortoisebot/tortoisebot_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/tortoisebot_gazebo
+[8.861s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_gazebo -- -j8 -l8
+[9.196s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_gazebo -- -j8 -l8
+[9.744s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_gazebo
+[9.770s] -- Install configuration: ""
+[9.770s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo
+[9.771s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_physics.gazebo
+[9.771s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_plugins.gazebo
+[9.772s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_materials.gazebo
+[9.772s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch
+[9.773s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch/gazebo.launch.py
+[9.773s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds
+[9.773s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/room2.sdf
+[9.773s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/tortoisebot_warehouse.world
+[9.774s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/config
+[9.774s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/config/hook_controller.yaml
+[9.774s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models
+[9.774s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/tortoisebot_warehouse
+[9.774s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/tortoisebot_warehouse/model.sdf
+[9.774s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/tortoisebot_warehouse/meshes
+[9.775s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/tortoisebot_warehouse/meshes/tortoisebot_warehouse_walls.dae
+[9.775s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/tortoisebot_warehouse/meshes/tortoisebot_walls.dae
+[9.775s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/tortoisebot_warehouse/model.config
+[9.780s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/grasping_cube
+[9.780s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/grasping_cube/model.sdf
+[9.781s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/grasping_cube/meshes
+[9.781s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/grasping_cube/meshes/grasping_cube.dae
+[9.782s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/grasping_cube/model.config
+[9.782s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack
+[9.783s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack/materials
+[9.784s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack/materials/scripts
+[9.785s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack/materials/scripts/image_fan.material
+[9.785s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack/materials/textures
+[9.785s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack/materials/textures/pallet-rack.jpg
+[9.786s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack/model.sdf
+[9.787s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_pallet_rack/model.config
+[9.787s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock
+[9.787s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock/materials
+[9.788s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock/materials/scripts
+[9.789s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock/materials/scripts/image_trailer_dock.material
+[9.789s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock/materials/textures
+[9.790s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock/materials/textures/loading-dock.jpg
+[9.790s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock/model.sdf
+[9.791s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_trailer_dock/model.config
+[9.791s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan
+[9.791s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan/materials
+[9.792s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan/materials/scripts
+[9.793s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan/materials/scripts/image_fan.material
+[9.793s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan/materials/textures
+[9.793s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan/materials/textures/fan.jpg
+[9.793s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan/model.sdf
+[9.793s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_fan/model.config
+[9.794s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor
+[9.794s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor/materials
+[9.794s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor/materials/scripts
+[9.795s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor/materials/scripts/image_floor.material
+[9.795s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor/materials/textures
+[9.795s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor/materials/textures/tortoisebot_warehouse.png
+[9.796s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor/model.sdf
+[9.796s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/image_floor/model.config
+[9.796s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/package_run_dependencies/tortoisebot_gazebo
+[9.806s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/parent_prefix_path/tortoisebot_gazebo
+[9.807s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.sh
+[9.808s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.dsv
+[9.811s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.sh
+[9.811s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.dsv
+[9.811s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.bash
+[9.815s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.sh
+[9.815s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.zsh
+[9.815s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.dsv
+[9.817s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv
+[9.824s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/packages/tortoisebot_gazebo
+[9.824s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig.cmake
+[9.824s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig-version.cmake
+[9.824s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.xml
+[9.824s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_gazebo

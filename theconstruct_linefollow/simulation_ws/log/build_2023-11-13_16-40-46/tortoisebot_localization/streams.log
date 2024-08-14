@@ -1,0 +1,45 @@
+[5.830s] Invoking command in '/home/user/simulation_ws/src/tortoisebot/tortoisebot_localization': PYTHONPATH=/home/user/simulation_ws/build/tortoisebot_localization/prefix_override:/home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tortoisebot_localization build --build-base /home/user/simulation_ws/build/tortoisebot_localization/build install --record /home/user/simulation_ws/build/tortoisebot_localization/install.log --single-version-externally-managed
+[7.982s] running egg_info
+[7.984s] creating ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info
+[7.989s] writing ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/PKG-INFO
+[8.004s] writing dependency_links to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/dependency_links.txt
+[8.004s] writing entry points to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/entry_points.txt
+[8.004s] writing requirements to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/requires.txt
+[8.004s] writing top-level names to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/top_level.txt
+[8.004s] writing manifest file '../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/SOURCES.txt'
+[8.005s] reading manifest file '../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/SOURCES.txt'
+[8.005s] writing manifest file '../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/SOURCES.txt'
+[8.006s] running build
+[8.025s] running build_py
+[8.027s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.027s]   warnings.warn(
+[8.027s] creating /home/user/simulation_ws/build/tortoisebot_localization/build
+[8.027s] creating /home/user/simulation_ws/build/tortoisebot_localization/build/lib
+[8.027s] creating /home/user/simulation_ws/build/tortoisebot_localization/build/lib/tortoisebot_localization
+[8.027s] copying tortoisebot_localization/__init__.py -> /home/user/simulation_ws/build/tortoisebot_localization/build/lib/tortoisebot_localization
+[8.027s] running install
+[8.028s] running install_lib
+[8.028s] creating /home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages/tortoisebot_localization
+[8.028s] copying /home/user/simulation_ws/build/tortoisebot_localization/build/lib/tortoisebot_localization/__init__.py -> /home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages/tortoisebot_localization
+[8.028s] byte-compiling /home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages/tortoisebot_localization/__init__.py to __init__.cpython-310.pyc
+[8.028s] running install_data
+[8.028s] creating /home/user/simulation_ws/install/tortoisebot_localization/share/ament_index
+[8.028s] creating /home/user/simulation_ws/install/tortoisebot_localization/share/ament_index/resource_index
+[8.028s] creating /home/user/simulation_ws/install/tortoisebot_localization/share/ament_index/resource_index/packages
+[8.028s] copying resource/tortoisebot_localization -> /home/user/simulation_ws/install/tortoisebot_localization/share/ament_index/resource_index/packages
+[8.029s] copying package.xml -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization
+[8.029s] creating /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/launch
+[8.029s] copying launch/localization.launch.py -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/launch
+[8.029s] creating /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.029s] copying config/warehouse_challenge_map_2.yaml -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.029s] copying config/amcl_config.yaml -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.029s] copying config/warehouse_challenge_map_2.pgm -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.029s] copying config/theconstruct_classroom.yaml -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.029s] copying config/warehouse_challenge_map_1.yaml -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.029s] copying config/warehouse_challenge_map_1.pgm -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.029s] copying config/theconstruct_classroom.pgm -> /home/user/simulation_ws/install/tortoisebot_localization/share/tortoisebot_localization/config
+[8.030s] running install_egg_info
+[8.038s] Copying ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info to /home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages/tortoisebot_localization-0.0.0-py3.10.egg-info
+[8.044s] running install_scripts
+[8.204s] writing list of installed files to '/home/user/simulation_ws/build/tortoisebot_localization/install.log'
+[8.415s] Invoked command in '/home/user/simulation_ws/src/tortoisebot/tortoisebot_localization' returned '0': PYTHONPATH=/home/user/simulation_ws/build/tortoisebot_localization/prefix_override:/home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tortoisebot_localization build --build-base /home/user/simulation_ws/build/tortoisebot_localization/build install --record /home/user/simulation_ws/build/tortoisebot_localization/install.log --single-version-externally-managed

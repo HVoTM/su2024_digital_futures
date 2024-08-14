@@ -1,0 +1,14 @@
+[package]
+name = "ros2_aruco_interfaces"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rosidl_runtime_rs = "0.3"
+serde = { version = "1", optional = true, features = ["derive"] }
+std_msgs = "*"
+builtin_interfaces = "*"
+geometry_msgs = "*"
+
+[features]
+serde = ['dep:serde', 'rosidl_runtime_rs/serde', 'std_msgs/serde', 'builtin_interfaces/serde', 'geometry_msgs/serde']

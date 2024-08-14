@@ -1,0 +1,45 @@
+[1.127s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_description -- -j8 -l8
+[2.210s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_description -- -j8 -l8
+[2.791s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_description
+[2.897s] -- Install configuration: ""
+[2.897s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/robot_description.launch.py
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/rviz.launch.py
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/spawn.launch.py
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/state_publisher.launch.py
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/display.launch.py
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot_hook.xacro
+[2.898s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot.xacro
+[2.899s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/materials.xacro
+[2.899s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes
+[2.899s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_motorend.stl
+[2.899s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/camera.stl
+[2.899s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/imu.stl
+[2.899s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/caster.stl
+[2.900s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_bottom.stl
+[2.900s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/base_link.stl
+[2.900s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_top.stl
+[2.900s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_body.stl
+[2.900s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_right.stl
+[2.900s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_left.stl
+[2.901s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/rviz
+[2.901s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/tortoisebot_navigation.rviz
+[2.901s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/sensors.rviz
+[2.901s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/ament_index/resource_index/package_run_dependencies/tortoisebot_description
+[2.901s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/ament_index/resource_index/parent_prefix_path/tortoisebot_description
+[2.901s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.sh
+[2.901s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.dsv
+[2.902s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.sh
+[2.904s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.dsv
+[2.907s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.bash
+[2.907s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.sh
+[2.907s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.zsh
+[2.907s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.dsv
+[2.907s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/package.dsv
+[2.907s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/ament_index/resource_index/packages/tortoisebot_description
+[2.908s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig.cmake
+[2.908s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig-version.cmake
+[2.908s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/package.xml
+[3.200s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_description

@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/tortoisebot_control/tortoisebot_control.egg-info
+writing ../../../build/tortoisebot_control/tortoisebot_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/entry_points.txt
+writing requirements to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/requires.txt
+writing top-level names to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/top_level.txt
+writing manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+reading manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/simulation_ws/build/tortoisebot_control/build
+creating /home/user/simulation_ws/build/tortoisebot_control/build/lib
+creating /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+copying tortoisebot_control/__init__.py -> /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+copying tortoisebot_control/teleop_twist_keyboard.py -> /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+copying tortoisebot_control/gripper_server.py -> /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+copying /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control/__init__.py -> /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+copying /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control/teleop_twist_keyboard.py -> /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+copying /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control/gripper_server.py -> /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+byte-compiling /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+byte-compiling /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/gripper_server.py to gripper_server.cpython-310.pyc
+running install_data
+creating /home/user/simulation_ws/install/tortoisebot_control/share/ament_index
+creating /home/user/simulation_ws/install/tortoisebot_control/share/ament_index/resource_index
+creating /home/user/simulation_ws/install/tortoisebot_control/share/ament_index/resource_index/packages
+copying resource/tortoisebot_control -> /home/user/simulation_ws/install/tortoisebot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/simulation_ws/install/tortoisebot_control/share/tortoisebot_control
+running install_egg_info
+Copying ../../../build/tortoisebot_control/tortoisebot_control.egg-info to /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gripper_server script to /home/user/simulation_ws/install/tortoisebot_control/lib/tortoisebot_control
+Installing teleop_twist_keyboard script to /home/user/simulation_ws/install/tortoisebot_control/lib/tortoisebot_control
+writing list of installed files to '/home/user/simulation_ws/build/tortoisebot_control/install.log'

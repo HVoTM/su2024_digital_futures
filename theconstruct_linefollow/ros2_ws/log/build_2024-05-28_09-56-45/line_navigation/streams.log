@@ -1,0 +1,26 @@
+[3.492s] Invoking command in '/home/user/ros2_ws/src/line_navigation': PYTHONPATH=/home/user/ros2_ws/build/line_navigation/prefix_override:/home/user/ros2_ws/install/line_navigation/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_navigation build --build-base /home/user/ros2_ws/build/line_navigation/build install --record /home/user/ros2_ws/build/line_navigation/install.log --single-version-externally-managed
+[4.791s] running egg_info
+[4.792s] writing ../../build/line_navigation/line_navigation.egg-info/PKG-INFO
+[4.792s] writing dependency_links to ../../build/line_navigation/line_navigation.egg-info/dependency_links.txt
+[4.795s] writing entry points to ../../build/line_navigation/line_navigation.egg-info/entry_points.txt
+[4.795s] writing requirements to ../../build/line_navigation/line_navigation.egg-info/requires.txt
+[4.795s] writing top-level names to ../../build/line_navigation/line_navigation.egg-info/top_level.txt
+[4.797s] reading manifest file '../../build/line_navigation/line_navigation.egg-info/SOURCES.txt'
+[4.798s] writing manifest file '../../build/line_navigation/line_navigation.egg-info/SOURCES.txt'
+[4.798s] running build
+[4.799s] running build_py
+[4.799s] copying line_navigation/line_navigation.py -> /home/user/ros2_ws/build/line_navigation/build/lib/line_navigation
+[4.799s] running install
+[4.800s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.800s]   warnings.warn(
+[4.800s] running install_lib
+[4.800s] copying /home/user/ros2_ws/build/line_navigation/build/lib/line_navigation/line_navigation.py -> /home/user/ros2_ws/install/line_navigation/lib/python3.10/site-packages/line_navigation
+[4.802s] byte-compiling /home/user/ros2_ws/install/line_navigation/lib/python3.10/site-packages/line_navigation/line_navigation.py to line_navigation.cpython-310.pyc
+[4.803s] running install_data
+[4.808s] running install_egg_info
+[4.808s] removing '/home/user/ros2_ws/install/line_navigation/lib/python3.10/site-packages/line_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[4.808s] Copying ../../build/line_navigation/line_navigation.egg-info to /home/user/ros2_ws/install/line_navigation/lib/python3.10/site-packages/line_navigation-0.0.0-py3.10.egg-info
+[4.877s] running install_scripts
+[4.982s] Installing line_navigation_node script to /home/user/ros2_ws/install/line_navigation/lib/line_navigation
+[4.983s] writing list of installed files to '/home/user/ros2_ws/build/line_navigation/install.log'
+[5.081s] Invoked command in '/home/user/ros2_ws/src/line_navigation' returned '0': PYTHONPATH=/home/user/ros2_ws/build/line_navigation/prefix_override:/home/user/ros2_ws/install/line_navigation/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/line_navigation build --build-base /home/user/ros2_ws/build/line_navigation/build install --record /home/user/ros2_ws/build/line_navigation/install.log --single-version-externally-managed

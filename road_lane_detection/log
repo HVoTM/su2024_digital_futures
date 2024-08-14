@@ -1,0 +1,71 @@
+# Issues
+## 7/18/2024
+- [x] region of interest not reading the road:
+    + __*fixed*__: understand how fillPoly and image rows columns orientation in a frame looks like
+- [] live webcam video issues:
+    - [x] when no lines are detected -> create an exception not to include it
+    - [x] in **pixel_points()**: `OverflowError: cannot convert float infinity to integer` for lines like this: **x1 = int((y1 - intercept)/slope)**
+        + problem arises when directing camera looking at a horizontal value, which can have a slope value of 0
+        + __*fixed*__: setting a limit value for slope from the range -0.01 to 0.01
+        + if 0<= x < 0.01, set it to 0.01 and same goes for -0.01 to 0
+        + this error can be constrained by setting a stable mount for the camera so there would be no unstable line recognition during live feed
+
+    - [x] in **frame_processor()**: `ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()`
+        - __*fixed*__: adding `if line is not None` would help with ambiguous numpy array. relevant problems: numpy/Pandas objects 's truthiness when comparing with boolean 
+
+- [] Lane detection does not work on colored line since we are using grayscale?
+    - Work with HSL image conversion or so before using grayscale
+
+## 7/19/2024    
+- Houghline Transform does not work well on curves and sharp turns, which is what we need for maneuverability and change of directions
+    + use a convolutional neural network
+    + higher degree polynomials,
+    + weighted average of some sorts
+
+- HSL Color masking for different lines
+- Think of cases to minimize loss of line but also a foolproof system to account for when there is no line seen like *wandering*.
+
+## 7/22/24
+- Created ros2 package in ros2-line-follower to start implement and test the road lane detection algorithm
+`ros2 pkg create --build-type ament_python roadlane --dependencies rclpy numpy pandas cv2 std_msgs geometry_msgs`
+
+- Define initial metadata in the setup.py and package.xml files
+    + **NOTE**: define and include necessary dependencies
+    + **NOTE**: define scripts for ros2 executables and include necessary files to run the simulation and real-life testing
+--> created package, run subscription and read image successfully with some immature lane line detection, WILL CONTINUE TO IMPROVE WITH THE ROAD LANE DETECTION
+
+Working on further complex concepts and based on the original Hough and Canny edge method that can potentially deal with curve lines and sharp turns: 
+    - thresholds for different color spaces and gradients
+    - sliding window techniques
+    - warped perspective transforms
+    - polynomial fits to detect lane lines
+
+
+## 7/24/2024
+- Working on Advanced Lane line Detection: corner points, distortion matrix, ...
+- Warped Perspective Transform - Geometric Image Transformation
+- Thresholds for S-channel, V-channel, Absolute Sobel Threshold, 
+- Sliding windows, convolutions
+
+- Implemented and refactoring the code for personal use:
+    - [] update `LaneFiting()` function to return necessary values to compute for the differential drive control
+        - 7/29/24: Understand how to acquire the x-coordinate of the two left and right lanes and implement it to use for controls
+        - **left_fitx[-1]** and **right_fitx[-1]** would be the two variables for controls
+    - [] `UnpackPickle`handling calibration matrix and distortion coefficients for zip pickle file, specify case for flexibility to access own file on other computer
+    - [x] `BirdEyeView()`: understanding the warp perspective, and configure with the appropriate parameters to enable bird eye's view, like **region of interest**
+    - [] `FindLanePixels`: understand convolution (*tracker.py* file, and the sliding window method on how it can idenfify pixels in a warped plane of road lanes
+    - [] `LaneFitting` and `CalculateLaneStatistics`: configure for better, more accurate calculation and calibration, 
+    - <div style="color:orange">BRAINSTORM</div> on the overall `PreprocessingPipeline`: 
+
+        + have it return the corresponding lane statistics and necessary data(like curvature) to convert with proper unit and calculate for differential drive in the following part of the ROS robots (`cmd_vel`)
+        + have the function also return an frame display for monitoring when testing with the Turtlebot model (both simulations and real-life) that contains all the preprocessing frame, like this:
+        ![alt text](image.png)
+
+
+## 8/1/2024
+- The current `advanced.py` is too complicated, back tracking to `hough.py` for simpler method
+- Developing `Polynomial Fit` for two left and right lanes. Some cases to take care of:
+    + [] slope closing to 0, causing overly massive value of derived overall x-coordinates which are to be used to calculate the lane_center
+    + [] account for the camera offset -> we can make a class or object to remember past values, which can be used to align with the correct position of the robot motor wheels with the currently display center to align on screen for accuracy __*can be looked into later*__
+    + [] account for when lane center gets sizeable oscillation left and right due to distracting environments causing hough line to read in unnecessary values
+

@@ -1,0 +1,50 @@
+[1.406s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_gazebo -- -j8 -l8
+[2.245s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_gazebo -- -j8 -l8
+[2.684s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_gazebo
+[2.706s] -- Install configuration: ""
+[2.706s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo
+[2.706s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_physics.gazebo
+[2.707s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_plugins.gazebo
+[2.707s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_materials.gazebo
+[2.707s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch
+[2.707s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch/gazebo.launch.py
+[2.708s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds
+[2.708s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/room2.sdf
+[2.708s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/tortoisebot_warehouse.world
+[2.708s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/config
+[2.708s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/config/hook_controller.yaml
+[2.709s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models
+[2.709s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini
+[2.709s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/model.sdf
+[2.709s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes
+[2.709s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/kombini_text_seveneleven_vis.dae
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/nav_wall.dae
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/seveneleven_col.stl
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/kombini_text_seveneleven_vis_v2.dae
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/Image_0.jpg
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/burguer_textures.png
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/aux_wall_vis.dae
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/aux_wall_col.stl
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/nav_wall_col.stl
+[2.710s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/kombini_text_seveneleven.dae
+[2.711s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/kombini_text.dae
+[2.711s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/kombini.dae
+[2.711s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/seveneleven_col_v2.stl
+[2.711s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/meshes/Image_1.jpg
+[2.711s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/models/kombini/model.config
+[2.711s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/package_run_dependencies/tortoisebot_gazebo
+[2.787s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/parent_prefix_path/tortoisebot_gazebo
+[2.787s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.sh
+[2.787s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.dsv
+[2.787s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.sh
+[2.787s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.dsv
+[2.787s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.bash
+[2.787s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.sh
+[2.788s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.zsh
+[2.792s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.dsv
+[2.792s] -- Installing: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv
+[2.792s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/packages/tortoisebot_gazebo
+[2.794s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig.cmake
+[2.794s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig-version.cmake
+[2.794s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.xml
+[2.805s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_gazebo

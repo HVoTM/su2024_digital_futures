@@ -1,0 +1,70 @@
+[1.436s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/tortoisebot/tortoisebot_description -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/tortoisebot_description
+[1.830s] -- The C compiler identification is GNU 11.3.0
+[2.050s] -- The CXX compiler identification is GNU 11.3.0
+[2.123s] -- Detecting C compiler ABI info
+[2.653s] -- Detecting C compiler ABI info - done
+[2.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.716s] -- Detecting C compile features
+[2.717s] -- Detecting C compile features - done
+[2.752s] -- Detecting CXX compiler ABI info
+[3.270s] -- Detecting CXX compiler ABI info - done
+[3.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.351s] -- Detecting CXX compile features
+[3.362s] -- Detecting CXX compile features - done
+[3.416s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.351s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[6.759s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.944s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.001s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.005s] -- Added test 'lint_cmake' to check CMake code style
+[8.013s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.030s] -- Added test 'xmllint' to check XML markup files
+[8.052s] -- Configuring done
+[8.081s] -- Generating done
+[8.096s] -- Build files have been written to: /home/user/simulation_ws/build/tortoisebot_description
+[8.318s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/tortoisebot/tortoisebot_description -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/tortoisebot_description
+[8.340s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_description -- -j8 -l8
+[8.863s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_description -- -j8 -l8
+[9.401s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_description
+[9.512s] -- Install configuration: ""
+[9.512s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch
+[9.513s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/robot_description.launch.py
+[9.518s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/rviz.launch.py
+[9.518s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/spawn.launch.py
+[9.519s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/state_publisher.launch.py
+[9.519s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/launch/display.launch.py
+[9.519s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models
+[9.519s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf
+[9.519s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot_hook.xacro
+[9.519s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot.xacro
+[9.519s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/materials.xacro
+[9.520s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes
+[9.520s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_motorend.stl
+[9.520s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/camera.stl
+[9.520s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/imu.stl
+[9.521s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/caster.stl
+[9.521s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_bottom.stl
+[9.521s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/base_link.stl
+[9.528s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_top.stl
+[9.529s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_body.stl
+[9.532s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_right.stl
+[9.541s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_left.stl
+[9.543s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/rviz
+[9.543s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/tortoisebot_navigation.rviz
+[9.544s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/sensors.rviz
+[9.545s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/ament_index/resource_index/package_run_dependencies/tortoisebot_description
+[9.546s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/ament_index/resource_index/parent_prefix_path/tortoisebot_description
+[9.547s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.sh
+[9.548s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.dsv
+[9.549s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.sh
+[9.550s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.dsv
+[9.551s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.bash
+[9.552s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.sh
+[9.552s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.zsh
+[9.554s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.dsv
+[9.554s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/package.dsv
+[9.555s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/ament_index/resource_index/packages/tortoisebot_description
+[9.556s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig.cmake
+[9.557s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig-version.cmake
+[9.559s] -- Installing: /home/user/simulation_ws/install/tortoisebot_description/share/tortoisebot_description/package.xml
+[9.570s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_description

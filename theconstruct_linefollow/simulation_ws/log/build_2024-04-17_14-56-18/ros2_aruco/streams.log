@@ -1,0 +1,24 @@
+[10.907s] Invoking command in '/home/user/simulation_ws/src/tortoisebot/ros2_aruco/ros2_aruco': PYTHONPATH=/home/user/simulation_ws/build/ros2_aruco/prefix_override:/home/user/simulation_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ros2_aruco build --build-base /home/user/simulation_ws/build/ros2_aruco/build install --record /home/user/simulation_ws/build/ros2_aruco/install.log --single-version-externally-managed
+[12.479s] running egg_info
+[12.565s] writing ../../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[12.565s] writing dependency_links to ../../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[12.565s] writing entry points to ../../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[12.565s] writing requirements to ../../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[12.565s] writing top-level names to ../../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[12.568s] reading manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[12.571s] writing manifest file '../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[12.571s] running build
+[12.571s] running build_py
+[12.576s] running install
+[12.577s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.578s]   warnings.warn(
+[12.578s] running install_lib
+[12.595s] running install_data
+[12.597s] running install_egg_info
+[12.598s] removing '/home/user/simulation_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info' (and everything under it)
+[12.599s] Copying ../../../../build/ros2_aruco/ros2_aruco.egg-info to /home/user/simulation_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[12.601s] running install_scripts
+[12.710s] Installing aruco_generate_marker script to /home/user/simulation_ws/install/ros2_aruco/lib/ros2_aruco
+[12.711s] Installing aruco_node script to /home/user/simulation_ws/install/ros2_aruco/lib/ros2_aruco
+[12.711s] writing list of installed files to '/home/user/simulation_ws/build/ros2_aruco/install.log'
+[12.898s] Invoked command in '/home/user/simulation_ws/src/tortoisebot/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/user/simulation_ws/build/ros2_aruco/prefix_override:/home/user/simulation_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ros2_aruco build --build-base /home/user/simulation_ws/build/ros2_aruco/build install --record /home/user/simulation_ws/build/ros2_aruco/install.log --single-version-externally-managed

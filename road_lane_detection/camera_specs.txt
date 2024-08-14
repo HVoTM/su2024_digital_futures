@@ -1,0 +1,16 @@
+{
+    "Webcam Name:":"Anker PowerConf C200: Anker Pow",
+    "Frame rate:":"30 FPS","Webcam Resolution:":"640x480",
+    "Aspect Ratio:":"1.33","Webcam MegaPixels:":"0.31 MP",
+    "Camera Facing:":"environment",
+    "Built-in Microphone:":"None",
+    "Built-in Speaker:":"None",
+    "PNG File Size:":"422.87 kB",
+    "JPEG File Size:":"62.23 kB",
+    "Number of Colors:":"25045",
+    "Brightness:":"35.65 %",
+    "Hue:":"8.06 %",
+    "Saturation:":"27 °",
+    "—":"—"
+    
+}

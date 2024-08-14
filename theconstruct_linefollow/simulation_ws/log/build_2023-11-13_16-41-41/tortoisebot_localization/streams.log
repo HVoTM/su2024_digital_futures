@@ -1,0 +1,22 @@
+[4.427s] Invoking command in '/home/user/simulation_ws/src/tortoisebot/tortoisebot_localization': PYTHONPATH=/home/user/simulation_ws/build/tortoisebot_localization/prefix_override:/home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tortoisebot_localization build --build-base /home/user/simulation_ws/build/tortoisebot_localization/build install --record /home/user/simulation_ws/build/tortoisebot_localization/install.log --single-version-externally-managed
+[5.746s] running egg_info
+[5.748s] writing ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/PKG-INFO
+[5.748s] writing dependency_links to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/dependency_links.txt
+[5.748s] writing entry points to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/entry_points.txt
+[5.748s] writing requirements to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/requires.txt
+[5.749s] writing top-level names to ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/top_level.txt
+[5.752s] reading manifest file '../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/SOURCES.txt'
+[5.754s] writing manifest file '../../../build/tortoisebot_localization/tortoisebot_localization.egg-info/SOURCES.txt'
+[5.754s] running build
+[5.754s] running build_py
+[5.754s] running install
+[5.755s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.755s]   warnings.warn(
+[5.755s] running install_lib
+[5.757s] running install_data
+[5.759s] running install_egg_info
+[5.762s] removing '/home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages/tortoisebot_localization-0.0.0-py3.10.egg-info' (and everything under it)
+[5.763s] Copying ../../../build/tortoisebot_localization/tortoisebot_localization.egg-info to /home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages/tortoisebot_localization-0.0.0-py3.10.egg-info
+[5.818s] running install_scripts
+[5.870s] writing list of installed files to '/home/user/simulation_ws/build/tortoisebot_localization/install.log'
+[5.955s] Invoked command in '/home/user/simulation_ws/src/tortoisebot/tortoisebot_localization' returned '0': PYTHONPATH=/home/user/simulation_ws/build/tortoisebot_localization/prefix_override:/home/user/simulation_ws/install/tortoisebot_localization/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tortoisebot_localization build --build-base /home/user/simulation_ws/build/tortoisebot_localization/build install --record /home/user/simulation_ws/build/tortoisebot_localization/install.log --single-version-externally-managed

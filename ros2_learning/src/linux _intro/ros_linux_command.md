@@ -1,0 +1,223 @@
+# Linux commands for Robot Operating Systems
+Most essential for Robotics Development
+- Linux is everywhere
+
+What needs to be learned:
+
+- How to navigate through a Linux filesystem
+- How to interact with a Linux filesystem
+- How to edit files using the Shell (vi editor)
+- Manage access to files (Permissions)
+- Create simple Linux programs (Bash Scripts)
+- Manage execution of Linux programs (Processes)
+- How to connect to the remote computer of a robot (ssh)
+
+## NAvigating through the file system
+- Linux systems are composed of two main elements: folders and files
+
+### command 'cd'
+
+Use `cd` to travel across the files 
+` cd /home/user/project_folder/project_file`
+
+- `cd ../` to move outside of the current folder
+
+- `cd ~/` to move to the home folder, ~ is abbreviation for "/home/user/"
+
+
+### pwd
+Checks current path
+
+### command "ls"
+Seeing all the contents of a folder or directory, for instance, files or the inner folders (sub directories)
+
+- `ls -la`: for display of hidden file, which starts with a dot ".".
+- `ls --help`: to show all ls commands, which works with all other linux commands if you need help.
+
+### command "mkdir"
+Create a new directory: `mkdir new_folder_name`
+
+### command "touch"
+Linux way to create new files
+
+### "vi" visual editor
+`vi filename.file_type` to edit files in the visual editor (vi)
+
+has 2 modes: **command** and **insert**
+- insert mode - character "i" : to write content into the file
+- go back to command mode: character "esc".
+- save the file content: `wq`
+
+Basically, this means that since the last time you saved the file, there have been some modifications to it, so you cannot just exit the editor. At this point, you have 2 options:
+
+- Use the `:w` sequence first, in order to write the latest changes. After this, you will be able to exit the editor using the sequence `:q`.
+
+- Use the sequence `:q!`. This will exit the editor, ignoring the last changes to the file.
+
+### Command "mv"
+Stands for move, to move files or folders from one location to another
+
+`mv <file/folder we want to move> <destination>`
+
+*NOTE*: remember to include the correct path, depending on which directory you are in
+
+### command "cp"
+command ==cp== stands for copy
+`cp <file/folder we want to copy> <name of the new file/folder>`
+
+TO copy folders:
+`cp -r my_scripts/ my_scripts_copy/`
+
+### command "rm"
+to **remove** file
+`rm <file to remove>`
+to **remove** folder
+`rm -r <folder to remove>`
+
+## Advanced Utilities 1
+
+### Permissions of the file
+Should look somethign like this: **rw-r--r--**
+
+Each file or directory has 3 permission types
+- read: read permission
+- write: write permission
+- execute: affect the ability to executerun a file or view content of a directory
+
+Each file or directory has three user-based permission groups, each with 3 characters to define the given permission
+- owner 
+- group
+- all users
+
+From the permission stats above, we can say that the owner has read and write permission (rw-), while the group and the rest of the users have only read permission (r--). The *-* signifies the permissions are not applied.
+
+### command "chmod"
+> Modify the permissions of a given file or directory (or many of them)
+Structure:  `chmod [groups to assign the permissions] [permissions to assign or remove] [file or folder names]`
+
+As for the groups, you can specify them using the following flags:
+    - u: Owner
+    - g: Group
+    - o: Others
+    - a: All users. For all users, you can also leave it blank, as we did in the example command you executed before.
+
+
+- example: `chmod g+w filename.py`
+WE will give write permission to group on this filename.py
+- another example: `chmod go-x filename.py`
+we will remove execution permissions for group and others.
+
+**BINARY REFERENCES**: each permission is assigned:
+- r = 4
+- w = 2
+- x = 1
+Add the numbers together to assign the overall permission for each type of group.
+*for example*, `chmod 740 filename.py` will grant all permission to user (7 = 4 + 2 + 1), read access to group (4 = 4) and no permission to others (0) on *filename.py*.
+
+### Bash scripts
+> which is Linux's own kind of script
+Regular text file that contains a series of commands - mixture of commands of the CLI (cd, ls, cp)
+
+Create a new bash script with the file extension **.sh**
+
+Starts the script with #!/bin/bash
+
+<div style="background-color: white; color: orange; padding: 20px;">
+    <p> #!/bin/bash </p>
+    <p> add commands here like: echo Hello there, dEVELOPERS!
+</div>
+
+Excute the scripts `,/bash_script_name.sh`
+
+### Passing parameters to a bash script
+- Access an argument inside a call-out script, e.g.: `./script.sh argument_1 argument_2`, using $1, $2, $3, and so on.
+
+Assign those $number values to variable $ARG1, $ARG2, and so on.
+
+refer to bash_script.sh to see how the script is built
+
+
+### the ".bashrc" file
+> a special bash scrip which is executed by LInux whenever a new Shell session is initialized.
+automatically generated by the Linuux system and is always placed in the HOME folder.
+Access it by cd out to the home `cd ` and `vi .bashrc`
+
+**_IMPORTANT_**: After adding any required scripts you add into, `source .bashrc` to execute the script to have it prepared afterwards.
+
+### Environment variables
+> Dynamic-named value that can affect the way running processes will behave on a computer
+Are very frequently used in RObotics Development and in ROS.
+
+### command "export"
+> provides the ability to update the current Shell session about the change you made to the exported variable.
+
+- run 'export' to see all the environment variables
+
+### command "grep"
+> filter elements a linux command
+
+- For example, we use `ls | grep ABC` to list the files/directories in the current dir. and filter with names that include 'ABC' in there.
+
+### Setting a variable with "export"
+
+## Advanced Utilities 2
+Linux Processes: 
+- Process: a program in execution, made up of the program instructions, data read from file, other programs or input from a system user.
+- 2 types:
+    1. Foreground processes
+    2. BAckground processes
+
+### htop & ps
+> visualizing processes, an improved version of `top`
+
+Similar to htop, we can use `ps` to visualize, as easier to analyze and see.
+- we got `ps` and `ps faux`
+
+To check a working script we have executed on the terminal, uses `ps faux | grep keyword_filter` for the corresponding filename in a new terminal.
+
+### Kill processes
+#### CTRL + C
+> kill a process with a signal SIGINT and can be intercepted by a program so that it can clean itself up before exiting.
+#### CTRL + Z
+> is used for suspending a process by sending it the signal SIGSTOP to a foreground application, which cannot be intercepted by the program, but the process is still there.
+
+#### command "kill"
+> stop a process that is running in the background.
+Use `ps faux | grep <filename here>` to get the the PID (Process ID) of the process you want to terminate.
+
+`kill <pid here>`
+#### command bg
+resume the execution of a suspended background process (such as CTRL+Z'ed processes)
+
+### Starting a process in the background
+Adding '&' after an execution command to send a process to the background
+<div style="background-color: yellow; color: red; padding: 10px;">
+    <p> Even CTRL + Z or CTRL+C can't stop it!!!</p>
+</div>
+
+So we can understand the ctrl +z or c would only affect processes that are running on the foreground.
+
+For background processes, now use kill. `kill <pid here>`, "kill 12415" for example.
+
+### SSH Protocol
+> allows users to connect to a remote machine in a secure way, based on CLient-server architecture.
+- Secure shell: SSH
+- Is used for transferring files between the two machines, execute commands on the remote machine
+- FOr robotics, to access the remote machine that runs in a physical robot to a remote PC.
+
+`ssh <user>@<host>`
+
+type in the password and press _enter_.
+
+TO end and ssh session, use `exit`
+
+### commands "apt", "sudo"
+- dpkg: packaging system
+- apt: advanced package tool, command line tool to interact with the packaging system (install, update, clean packages, etc..)
+
+`apt-get update`: to update the newly installed package(s) to the database of available packages
+> **NOTE**: we usually do `sudo apt-get update` to use higher authority to check.
+
+- sudo: utility of LInux systems (other Unix based systems) to allow users to execute a program or command with the privileges(permissions) of another user. -> become a <div style="color: purple"> super user </div>
+
+ 

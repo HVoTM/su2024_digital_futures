@@ -1,0 +1,39 @@
+[2.891s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_firmware -- -j8 -l8
+[3.488s] Built target ament_cmake_python_copy_tortoisebot_firmware
+[5.411s] running egg_info
+[5.415s] writing tortoisebot_firmware.egg-info/PKG-INFO
+[5.416s] writing dependency_links to tortoisebot_firmware.egg-info/dependency_links.txt
+[5.417s] writing top-level names to tortoisebot_firmware.egg-info/top_level.txt
+[5.421s] reading manifest file 'tortoisebot_firmware.egg-info/SOURCES.txt'
+[5.423s] writing manifest file 'tortoisebot_firmware.egg-info/SOURCES.txt'
+[5.703s] Built target ament_cmake_python_build_tortoisebot_firmware_egg
+[5.904s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/tortoisebot_firmware -- -j8 -l8
+[6.886s] Invoking command in '/home/user/simulation_ws/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_firmware
+[6.914s] -- Install configuration: ""
+[6.914s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/pythonpath.sh
+[6.914s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/pythonpath.dsv
+[6.914s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info
+[6.914s] -- Installing: /home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[6.914s] -- Installing: /home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[6.914s] -- Installing: /home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.914s] -- Installing: /home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.915s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware
+[6.915s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware/__init__.py
+[7.394s] Listing '/home/user/simulation_ws/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware'...
+[7.395s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/lib/tortoisebot_firmware/differential.py
+[7.395s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/ament_index/resource_index/package_run_dependencies/tortoisebot_firmware
+[7.395s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/ament_index/resource_index/parent_prefix_path/tortoisebot_firmware
+[7.395s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/ament_prefix_path.sh
+[7.395s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/ament_prefix_path.dsv
+[7.395s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/path.sh
+[7.395s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/path.dsv
+[7.400s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.bash
+[7.400s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.sh
+[7.400s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.zsh
+[7.400s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.dsv
+[7.401s] -- Installing: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/package.dsv
+[7.401s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/ament_index/resource_index/packages/tortoisebot_firmware
+[7.401s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/cmake/tortoisebot_firmwareConfig.cmake
+[7.401s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/cmake/tortoisebot_firmwareConfig-version.cmake
+[7.401s] -- Up-to-date: /home/user/simulation_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/package.xml
+[7.419s] Invoked command in '/home/user/simulation_ws/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/simulation_ws/install/tortoisebot_localization:/home/user/simulation_ws/install/tortoisebot_control:/home/user/simulation_ws/install/ros2_aruco:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/opencv_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/tortoisebot_firmware

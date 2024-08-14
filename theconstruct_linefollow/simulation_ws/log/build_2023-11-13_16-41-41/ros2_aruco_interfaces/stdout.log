@@ -1,0 +1,184 @@
+[  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  3%] Built target ros2_aruco_interfaces__rs
+[  3%] Built target ament_cmake_python_copy_ros2_aruco_interfaces
+[  6%] Built target ros2_aruco_interfaces__cpp
+running egg_info
+writing ros2_aruco_interfaces.egg-info/PKG-INFO
+writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_cpp[0m
+[ 15%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 25%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 34%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_generator_c[0m
+[ 43%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 53%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_c[0m
+[ 62%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_introspection_c[0m
+[ 71%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[ 71%] Built target ros2_aruco_interfaces
+[ 75%] Built target ros2_aruco_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_generator_py[0m
+[ 81%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 87%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_c__pyext[0m
+[ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[100%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.sh
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.dsv
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.hpp
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/rust_packages/ros2_aruco_interfaces
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/Cargo.toml
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src/msg.rs
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src/lib.rs
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/build.rs
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/Cargo.toml
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src/msg.rs
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src/lib.rs
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/build.rs
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/Cargo.toml
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src/msg.rs
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/src/lib.rs
+-- Up-to-date: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/rust/build.rs
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.sh
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.dsv
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_s.c
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces'...
+Compiling '/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py'...
+Listing '/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg'...
+Compiling '/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py'...
+Compiling '/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py'...
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/user/simulation_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.sh
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.dsv
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.bash
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.sh
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.zsh
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.dsv
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/packages/ros2_aruco_interfaces
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake
+-- Installing: /home/user/simulation_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.xml

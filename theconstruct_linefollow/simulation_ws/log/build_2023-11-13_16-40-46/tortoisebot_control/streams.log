@@ -1,0 +1,43 @@
+[5.902s] Invoking command in '/home/user/simulation_ws/src/tortoisebot/tortoisebot_control': PYTHONPATH=/home/user/simulation_ws/build/tortoisebot_control/prefix_override:/home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tortoisebot_control build --build-base /home/user/simulation_ws/build/tortoisebot_control/build install --record /home/user/simulation_ws/build/tortoisebot_control/install.log --single-version-externally-managed
+[7.794s] running egg_info
+[7.799s] creating ../../../build/tortoisebot_control/tortoisebot_control.egg-info
+[7.838s] writing ../../../build/tortoisebot_control/tortoisebot_control.egg-info/PKG-INFO
+[7.839s] writing dependency_links to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/dependency_links.txt
+[7.839s] writing entry points to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/entry_points.txt
+[7.839s] writing requirements to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/requires.txt
+[7.840s] writing top-level names to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/top_level.txt
+[7.841s] writing manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[7.859s] reading manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[7.866s] writing manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[7.866s] running build
+[7.866s] running build_py
+[7.866s] creating /home/user/simulation_ws/build/tortoisebot_control/build
+[7.866s] creating /home/user/simulation_ws/build/tortoisebot_control/build/lib
+[7.866s] creating /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+[7.869s] copying tortoisebot_control/__init__.py -> /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+[7.870s] copying tortoisebot_control/teleop_twist_keyboard.py -> /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+[7.874s] copying tortoisebot_control/gripper_server.py -> /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control
+[7.890s] running install
+[7.890s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.890s]   warnings.warn(
+[7.890s] running install_lib
+[7.933s] creating /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[7.934s] copying /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control/__init__.py -> /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[7.934s] copying /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control/teleop_twist_keyboard.py -> /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[7.935s] copying /home/user/simulation_ws/build/tortoisebot_control/build/lib/tortoisebot_control/gripper_server.py -> /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[7.936s] byte-compiling /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/__init__.py to __init__.cpython-310.pyc
+[7.938s] byte-compiling /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[7.940s] byte-compiling /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/gripper_server.py to gripper_server.cpython-310.pyc
+[7.941s] running install_data
+[7.946s] creating /home/user/simulation_ws/install/tortoisebot_control/share/ament_index
+[7.946s] creating /home/user/simulation_ws/install/tortoisebot_control/share/ament_index/resource_index
+[7.947s] creating /home/user/simulation_ws/install/tortoisebot_control/share/ament_index/resource_index/packages
+[7.947s] copying resource/tortoisebot_control -> /home/user/simulation_ws/install/tortoisebot_control/share/ament_index/resource_index/packages
+[7.947s] copying package.xml -> /home/user/simulation_ws/install/tortoisebot_control/share/tortoisebot_control
+[7.948s] running install_egg_info
+[7.956s] Copying ../../../build/tortoisebot_control/tortoisebot_control.egg-info to /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info
+[7.957s] running install_scripts
+[8.160s] Installing gripper_server script to /home/user/simulation_ws/install/tortoisebot_control/lib/tortoisebot_control
+[8.160s] Installing teleop_twist_keyboard script to /home/user/simulation_ws/install/tortoisebot_control/lib/tortoisebot_control
+[8.160s] writing list of installed files to '/home/user/simulation_ws/build/tortoisebot_control/install.log'
+[8.449s] Invoked command in '/home/user/simulation_ws/src/tortoisebot/tortoisebot_control' returned '0': PYTHONPATH=/home/user/simulation_ws/build/tortoisebot_control/prefix_override:/home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tortoisebot_control build --build-base /home/user/simulation_ws/build/tortoisebot_control/build install --record /home/user/simulation_ws/build/tortoisebot_control/install.log --single-version-externally-managed

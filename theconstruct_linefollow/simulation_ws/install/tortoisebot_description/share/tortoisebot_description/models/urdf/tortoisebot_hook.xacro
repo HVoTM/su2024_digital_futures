@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="tortoisebot_hook">
+    <xacro:macro name="tortoisebot_hook">
+        <link name="servo_motor">
+            <visual>
+                <geometry>
+                    <box size="0.032 0.012 0.026"/>
+                </geometry>
+                <origin xyz="0.0 0.0 0.0"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <box size="0.132 0.012 0.026"/>
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="motor_joint" type="revolute">
+            <parent link="servo_motor"/>
+            <child link="hook"/>
+            <axis xyz="0 0 1"/>
+            <limit lower="0" upper="1.57" velocity="50.0" effort="1000.0"/>
+            <origin xyz="0 0 0.046" rpy="0 0 0"/>
+        </joint>
+
+        <link name="hook">
+            <visual>
+                <geometry>
+                    <box size="0.032 0.012 0.026"/>
+                </geometry>
+                <origin xyz="0.0 0.0 0.46"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <box size="0.032 0.012 0.026"/>
+                </geometry>
+            </collision>
+        </link>
+
+        
+    </xacro:macro>
+    
+</robot>

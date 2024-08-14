@@ -1,0 +1,4 @@
+[console_scripts]
+gripper_server = tortoisebot_control.gripper_server:main
+teleop_twist_keyboard = tortoisebot_control.teleop_twist_keyboard:main
+

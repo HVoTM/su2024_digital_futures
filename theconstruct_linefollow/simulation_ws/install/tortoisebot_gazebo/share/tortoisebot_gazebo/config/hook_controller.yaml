@@ -1,0 +1,26 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # Hz
+
+    effort_controller:
+      type: effort_controllers/JointGroupEffortController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+effort_controller:
+  ros__parameters:
+    interface_name: "effort"
+    joints:
+      - base_to_hook
+    joint_limits:
+      base_to_hook:
+        has_position_limits: true
+        min_position: 0.0
+        max_position: 1.57
+        has_velocity_limits: true
+        max_velocity: 0.7
+        has_effort_limits: true
+        max_effort: 5.0
+        min_effort: -5.0
+    pid_gains:
+      base_to_hook: { p: 1.0, i: 0.01, d: 0.1 }

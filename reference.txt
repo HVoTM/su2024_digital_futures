@@ -1,0 +1,213 @@
+REFERENCES, MATERIALS, DOCUMENTATIONS, ETC. for ROS 2 and relevant alike
+
+1. GENERAL DOCUMENTATIONS
+# ROS 2 - Foxy distribution
+https://docs.ros.org/en/foxy/index.html
+
+# rclpy: ROS client library for python
+https://docs.ros.org/en/iron/p/rclpy/about.html
+- A Python API for ROS 2
+
+# TurtleBot3 - a practice robot run on ROS 2
+https://emanual.robotis.com/docs/en/platform/turtlebot3/bringup/
+
+# colcon - collective construction: linux command line tools to manage software packages
+https://colcon.readthedocs.io/en/released/
+
+# Gazebo simulation tutorial for running
+https://classic.gazebosim.org/tutorials
+
+# OpenCV Documentations (3.4.2)
+https://docs.opencv.org/3.4/index.html
+
+# Udacity course for self-driving car engineer
+https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013
+
+# OpenGL for Graphic Processing in C++
+https://learnopengl.com/Lighting/Basic-Lighting
+
+# ROS Industrial Training
+https://industrial-training-master.readthedocs.io/en/foxy/index.html
+
+# Fast DDS Discovery Server
+https://fast-dds.docs.eprosima.com/en/v2.1.0/index.html
+
+# StereoLabs for ZED camera - Camera, Sensors - Depth, Tracking, Mapping, Spatial AI, Computer Vision
+https://www.stereolabs.com/docs
+
+# ROS 2 Design Methodology
+https://design.ros2.org/
+
+# Papers and research - Awesome Lane Detection
+https://github.com/amusi/awesome-lane-detection
+
+# Doxygen: Documentation generator tool for C++
+https://www.doxygen.nl/
+
+# Sphinx: Documentation generator tool for Python
+https://www.sphinx-doc.org/en/master/
+
+
+2. Image Processing and Line Following
+Basic of Image Processing
+https://vincmazet.github.io/bip/index.html
+
+GeeksforGeeks - Line detection in Python with OpenCV | Houghline method
+https://www.geeksforgeeks.org/line-detection-python-opencv-houghline-method/
+
+Line following robot with OpenCV and contour-based approach
+https://const-toporov.medium.com/line-following-robot-with-opencv-and-contour-based-approach-417b90f2c298
+
+ROS2 Line follower by Gabriel Nas.
+https://github.com/gabrielnhn/ros2-line-follower/blob/main/follower/follower/follower_node.py
+
+Udacity approach of self-driving car - nanodegree project 1 finding lane lines
+https://medium.com/computer-car/udacity-self-driving-car-nanodegree-project-1-finding-lane-lines-9cd6a846c58c
+
+Proportional-integral-derivative controller
+https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller
+
+SUPER FAST Line follower robot using PID
+https://www.youtube.com/watch?v=QoNkpnpvEqc
+
+Wheel Odometry for Differential Drive RObotics
+https://medium.com/@nahmed3536/wheel-odometry-model-for-differential-drive-robotics-91b85a012299
+
+Minimum Wheel-Rotation Paths for Differential DRive Mobile Robots Among Piecewise SMooth Obstacles
+https://lavalle.pl/papers/ChiLav07.pdf
+
+Build a Line Follower with a Rover and a Webcams
+https://docs.viam.com/tutorials/services/webcam-line-follower-robot/7
+
+# Image sensors data not receiving at the RemotePC end from the raspberrypi
+Try with rqt, rqt_image_view on PC - frooze 
+Image sensor data still feeding in the Raspi (`ros2 topic echo /image_raw`)
+https://answers.ros.org/question/360929/rostopic-shows-imu-message-but-topic-monitor-shows-unknown/
+
+3. Adding a camera sensor to ROS 2 and TurtleBot3
+How to install a USB Camera in TurtleBot3
+https://www.youtube.com/watch?v=hH6ov9Ep134
+
+ROS camera sensor and understanding its properties
+https://www.youtube.com/watch?v=mG0FHhhfmw8
+
+ROS2 - Foxy USB-camera (!! The CAMERA DRIVER PACKAGE BEING USED !!)
+https://index.ros.org/r/usb_cam/#foxy
+
+OpenCV_Cam DRiver package
+https://github.com/clydemcqueen/opencv_cam
+
+Which camera for TurtleBot3 Burger and how to plug in
+https://answers.ros.org/question/329102/which-camera-for-turtle3-burger-and-how-to-plug-it/
+
+Check webcam index
+https://askubuntu.com/questions/348838/how-to-check-available-webcams-from-the-command-line
+
+Working with USB Webcams on Raspberry PI
+https://raspberrypi-guide.github.io/electronics/using-usb-webcams
+
+https://www.youtube.com/watch?v=A3nw2M47K50
+
+Raspberry Pi + ROS 2 + Camera
+https://medium.com/swlh/raspberry-pi-ros-2-camera-eef8f8b94304
+
+ROS2 Node for libcamera
+https://github.com/christianrauch/camera_ros
+
+Very slow publishing of large messages in ROS2
+
+4. Simulations, Modelling, and Data Visualization
+FoxGlove for data viz
+https://foxglove.dev/
+
+InkScape - extruding SVG files, 2D images to create 3D Meshes for models
+https://inkscape.org/en/download
+
+CAD Fusion
+
+Basic Lighting
+https://learnopengl.com/Lighting/Basic-Lighting
+
+FreeCAD
+`sudo apt-get install freecad`
+
+# Gazebo simulation tutorial for running
+https://classic.gazebosim.org/tutorials
+
+List of SDF Format for reference for modelling in  (visual, collision, inertia, joint types and joint values)
+http://sdformat.org/spec?ver=1.6&elem=joint#joint_type
+
+Gazebo 3D 
+> Gazebo: https://classic.gazebosim.org/tutorials?tut=dem&cat=build_world
+
+Examples on SDF, launch, headers for model in Gazebo
+https://github.com/gazebosim/gz-sim/tree/main/examples
+URDF model examples
+https://wiki.ros.org/urdf/Examples
+
+ROS COMMUNICATION WITH GAZEBO: PLUGINS!
+https://docs.ros.org/en/ros2_packages/rolling/api/gazebo_plugins/index.html
+
+5. Physisc - Math Theory, 3D MODEL DESIGNING
+# Simulation - Digital Elevation Modelling
+https://en.wikipedia.org/wiki/Digital_elevation_model
+
+Image Moment
+https://en.wikipedia.org/wiki/Image_moment
+
+Collisions - Inelastic and Elastic
+https://en.wikipedia.org/wiki/Collision
+
+List of moments of interia
+https://en.wikipedia.org/wiki/List_of_moments_of_inertia
+
+Basic of Image Processing (Houghline, Gaussian, Contour, HSV, ROI)
+https://vincmazet.github.io/bip/index.html
+
+Spatial Smoothing - Gaussian Filter
+https://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.html
+
+Basic Lighting on 3D Graphics(Ambient, Diffuse, Specular)
+https://learnopengl.com/Lighting/Basic-Lighting
+
+Trilinear Filtering
+https://en.wikipedia.org/wiki/Trilinear_filtering
+
+
+6. Testing and Data Analysis, Logistical and planning 
+Internet test on R-pi
+https://dev.to/admantium/ros-with-raspberry-pi-improving-wifi-upload-speed-4dol
+
+Standard Test MEthods for Response robot
+https://www.nist.gov/system/files/documents/el/isd/ms/DHS_NIST_ASTM_Robot_Test_Methods-2.pdf
+
+Supported Vector Machine
+https://www.geeksforgeeks.org/support-vector-machine-algorithm/
+
+Function and Decorators with Python's functools
+https://www.geeksforgeeks.org/functools-module-in-python/
+
+7. Operating Systems, Imager for Raspberry PI/ Jetson Nano
+Xbuntu 20.04 for JEtson Nano
+https://forums.developer.nvidia.com/t/xubuntu-20-04-focal-fossa-l4t-r32-3-1-custom-image-for-the-jetson-nano/121768
+
+Ubuntu 20.04 Jetson Nano
+https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image
+
+8. ROAD LANE DETECTION - TUTORIALS, DOCUMENTATIONS, AND RELEVANT STUFF
+Papers and research - Awesome Lane Detection
+https://github.com/amusi/awesome-lane-detection
+
+Papers with Code - Lane Detection
+https://paperswithcode.com/task/lane-detection
+
+9. PATH PLANNING
+# Path planning for an Autonomous Vehicle
+https://medium.com/@techreigns/path-planning-for-an-autonomous-vehicle-aided-by-sensor-fusion-data-80dfcdeaf3f1
+
+Appendix. OTHER PEOPLE'S PRODUCTS
+ROSMASTER R2 ROS2 ROBOT With Ackermann structure
+https://www.youtube.com/watch?v=0ITMpKAXp6s
+
+
+

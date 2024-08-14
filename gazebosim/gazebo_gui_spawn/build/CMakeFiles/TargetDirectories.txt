@@ -1,0 +1,4 @@
+/home/rsrch-388/digital_futures/gazebosim/gazebo_gui_spawn/build/CMakeFiles/rebuild_cache.dir
+/home/rsrch-388/digital_futures/gazebosim/gazebo_gui_spawn/build/CMakeFiles/edit_cache.dir
+/home/rsrch-388/digital_futures/gazebosim/gazebo_gui_spawn/build/CMakeFiles/gui_example_spawn_widget.dir
+/home/rsrch-388/digital_futures/gazebosim/gazebo_gui_spawn/build/CMakeFiles/gui_example_spawn_widget_autogen.dir

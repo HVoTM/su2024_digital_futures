@@ -1,0 +1,22 @@
+running egg_info
+writing ../../../build/tortoisebot_control/tortoisebot_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/entry_points.txt
+writing requirements to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/requires.txt
+writing top-level names to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/top_level.txt
+reading manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+writing manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/tortoisebot_control/tortoisebot_control.egg-info to /home/user/simulation_ws/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gripper_server script to /home/user/simulation_ws/install/tortoisebot_control/lib/tortoisebot_control
+Installing teleop_twist_keyboard script to /home/user/simulation_ws/install/tortoisebot_control/lib/tortoisebot_control
+writing list of installed files to '/home/user/simulation_ws/build/tortoisebot_control/install.log'
